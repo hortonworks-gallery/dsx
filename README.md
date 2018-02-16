@@ -1,1 +1,2 @@
-# dsx
+# Data Science Experience (DSX)
+DSX is a data science platform from IBM that provides all favorite data science toolkits at one place. DSX and HDP solve some of the major pain points of running data science at scale such as - ease of deployment and maintenance of machine learning models, scaling the developed model to big data scale, ease of using different open source tools, and collaboration. DSX comes in multiple flavors: cloud, desktop, and local. This gallery host projects built using Jupyter, Zeppelin,R that leverage DSX, and HDP catering to various use cases in Enterprise Datascience.
