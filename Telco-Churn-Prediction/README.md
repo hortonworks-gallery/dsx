@@ -1,0 +1,1 @@
+In this jupyter notebook, user can learn to build a classification model to predict if a customer is likely to churn or not. This notebook was originally created by Elena Lowery at IBM.
