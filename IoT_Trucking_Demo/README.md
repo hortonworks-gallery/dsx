@@ -1,0 +1,1 @@
+In this project we are building a classifier to predict if a truck driver might make a violation. This is a use-case of fleet analytics. This notebook has been contributed by Dhananjay Mehta from Hortonworks.

@@ -1,0 +1,3 @@
+This project analyzes NFL play-by-play data. It uses historical game data in order to predict the estimated yards gained (or lost) for the next play. This prediction is based on a set of known variables such as the game date, time left on the clock, quarter, yards to go, team with the ball, defensive team, etc. 
+Data can be download directly from Kaggle: https://www.kaggle.com/maxhorowitz/nflplaybyplay2009to2016/data
+This notebook has been contributed by Daniel Zaratsian from Hortonworks.
