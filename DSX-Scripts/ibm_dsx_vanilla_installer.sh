@@ -52,7 +52,6 @@ if [ "$response" == "y" ]; then
 
     # set location of installer.
     # Note: confirm the latest release and if needed this can be updated
-    #export installer_location="https://iwm.dhe.ibm.com/sdfdl/1v2/regs2/kshivele/Xa.2/Xb.Vx9GKkx1a8TxajbK8-iKFKK7tt4Poa9YSDfK9giAjFE/Xc.dsxlocal_linux-x86_64/Xd./Xf.LPr.A6vr/Xg.9331193/Xi.mrs-idsel/XY.regsrvs/XZ.zro7C3Fr3-P2OB4eNHbE6Dpiy2U/dsxlocal_linux-x86_64"
     export installer_location="http://158.85.173.111/repos/dsx/DSX%20Local%20GAs/DSX-Local-1.1.2.2-final.tar"
     # install wget and screen
     yum install -y wget screen tar
@@ -114,7 +113,7 @@ echo "Check if partitions look good with /data=350G  & /install=~300G, else abor
 sleep 20
 
 # run script to perform pre-installation checks
-curl https://hipchat.hortonworks.com/files/1/2686/77bRMjN5gDJgWko/pre_install_check.sh  > pre_install_check.sh
+curl https://raw.githubusercontent.com/hortonworks-gallery/dsx/master/DSX-Scripts/dsx_pre_install_check.sh  > pre_install_check.sh
 
 chmod +x pre_install_check.sh 
 
